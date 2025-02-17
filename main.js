@@ -177,7 +177,7 @@ console.log(genfucker(2000))
 // let out = []
 // for (let i = 0; i < 100; i++) {
 //     let length = choose(probs.lengths)
-//     // let length = Math.floor(8 / Math.random() - 6)
+    // let length = Math.floor(8 / Math.random() - 6)
 
 //     console.log(`chosen length: ${length}`)
 
@@ -185,4 +185,4 @@ console.log(genfucker(2000))
 // }
 
 // fs.writeFileSync("smashes.txt", out.join("\n"))
-// fs.writeFileSync("prob.json", JSON.stringify(probs))
+fs.writeFileSync("prob.json", JSON.stringify(probs))
